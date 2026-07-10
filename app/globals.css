@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* --- COLORES PERSONALIZADOS PARA MATCHBIT --- */
+  --color-matchbit: #00A86B;        /* Verde principal institucional */
+  --color-matchbit-dark: #004D32;   /* Verde oscuro para botones/hover */
+  --color-matchbit-light: #E6F6F0;  /* Fondo verde claro para badges */
+  --color-matchbit-bgDark: #1A1D1F; /* Fondo de la sección oscura */
 }
 
 @media (prefers-color-scheme: dark) {
