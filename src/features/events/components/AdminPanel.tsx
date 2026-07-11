@@ -14,7 +14,7 @@ export const AdminPanel: React.FC = () => {
   };
 
   return (
-    <section className="bg-white border-t border-gray-200 py-6 sticky bottom-0 z-40 shadow-[0_-8px_30px_rgb(0,0,0,0.04)]">
+    <section className="bg-white border-t border-b border-gray-200 py-8 my-12 rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.02)]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
         
         {/* Estado */}

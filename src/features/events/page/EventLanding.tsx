@@ -21,12 +21,15 @@ export const EventLanding: React.FC = () => {
         <CategoriesSection />
         <KitSection />
         <SponsorsSection />
+        
+        {isOrganizer && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-12">
+            <AdminPanel />
+          </div>
+        )}
       </main>
 
       <Footer />
-
-      {/* Panel flotante exclusivo para organizadores */}
-      {isOrganizer && <AdminPanel />}
     </div>
   );
 };
